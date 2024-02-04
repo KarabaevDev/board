@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+body {
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    max-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.block {
+    width: 20px;
+    height: 20px;
+    background: #1d1d1d;
+    margin: 2px;transition: .7s ease;
+    box-shadow: 0 0 2px #000000;
+}
+
+.block:hover {
+    transition-duration: 0s;
+}
